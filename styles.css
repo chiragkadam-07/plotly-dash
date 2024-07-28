@@ -1,0 +1,323 @@
+/* .box { 
+    border: 5px solid white ;
+    /* border-width: 5px #f20404; */
+	/* border-bottom-width: 5px rgb(229, 46, 46); */
+    /* border-radius: 100px */
+	/* ; */
+    /* padding: 1px; */
+    /* width: 50px; */
+    /* box-sizing: border-box; */
+/* }  */
+
+
+
+.box {
+	display: flex;
+	/* align-items: flex-end; */
+	justify-content: center;
+	width: 150px;
+	height: 40px;
+	border-top: 2px solid #28a745;
+	border-left: 2px solid #28a745;
+	border-right: 2px solid #28a745;
+	border-bottom: none;
+	margin: 0px auto;
+	font-weight: bold;
+	font-size: 20px;
+	/* color: #27187e; */
+	padding-top: 5px;
+	height: 40px; /* centers the box horizontally on the page */
+}
+
+body {
+	font-family: sans-serif;
+	h1 {
+		color: #FD5C63
+	};
+}
+
+body {
+	font-family: sans-serif;
+	h6 {
+		color: rgb(255, 255, 255);
+	};
+}
+
+/* Custom card styles */
+.custom-card {
+    width: 100px; /* Adjust width */
+    height: 120px; /* Adjust height */
+    padding: 20px; /* Adjust padding */
+    margin: 10px; /* Adjust margin */
+    background-color: #f8f9fa; /* Adjust background color */
+    border: 2px solid #28a745; /* Adjust border color */
+    border-radius: 10px; /* Adjust border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust shadow */
+}
+
+.custom-card1 {
+	width: 100px;
+	height: 120px;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	border: 1px, solid, gray
+	/* font-size: 12px; */
+	/* justify-content: center; */
+}
+
+.custom-card-header1 {
+    background-color: #dddddd; /* Adjust header background color */
+    color: black; /* Adjust header text color */
+    font-size: 16px; /* Adjust header font size */
+    padding: 10px; /* Adjust header padding */
+    border-bottom: 2px solid #6b6e6e; /* Adjust header border bottom color */
+	;
+}
+
+.custom-card-body1 {
+    color: #212529; /* Adjust body text color */
+    font-size: 1em; /* Adjust body font size */
+	padding-bottom: 0px;
+	margin-top: -9px;
+}
+
+.text-center {
+	text-align: center;
+	
+}
+
+
+/* Custom card header styles */
+.custom-card-header {
+    background-color: #28a745; /* Adjust header background color */
+    color: white; /* Adjust header text color */
+    font-size: 1.25em; /* Adjust header font size */
+    padding: 10px; /* Adjust header padding */
+    border-bottom: 2px solid #218838; /* Adjust header border bottom color */
+}
+
+/* Custom card body styles */
+.custom-card-body {
+    color: white; /* Adjust body text color */
+    font-size: 1em; /* Adjust body font size */
+	border: 1px, solid, grey
+}
+
+
+
+.radio-items2 {
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 170px; /* Adjust this value as needed */
+	
+}
+
+/* Custom classes for dynamic border color */
+.radio-output {
+    width: 100%;
+    height: 50px; /* Adjust this value as needed */
+}
+
+.green-border {
+    border: 2px solid green;
+}
+
+.red-border {
+    border: 2px solid red;
+}
+
+/* styles.css */
+
+.plotly-graph-div {
+    background-color: #1e1e1e; /* Dark background for the plot area */
+    color: #f0f0f0; /* Light text color */
+}
+
+.plotly .plotly-graph-div .modebar {
+    background-color: #333; /* Dark background for modebar */
+}
+
+.plotly .plotly-graph-div .colorbar {
+    background-color: #333; /* Dark background for colorbar */
+    color: #f0f0f0; /* Light text color for colorbar */
+}
+
+.graph-padding {
+    padding: 8px;
+}
+
+.tab-color {
+	background-color: white;
+}
+
+/* styles.css */
+
+/* Add background color to inactive tabs */
+.nav-link {
+    background-color: #e9ecef;
+}
+
+/* Change background color of active tabs */
+.nav-link.active {
+    background-color: #f8d7da !important;
+    color: #721c24;
+}
+
+/* Hover effect for tabs */
+.nav-link:hover {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.nav-link {
+	font-size: large;
+}
+
+/* .nav-tabs {
+	margin-bottom: -15px;
+} */
+
+#tab-LA {
+	margin-left: 190px;
+	
+}
+
+#tab-SD {
+	margin-left: 245px;
+}
+
+#tab-SF {
+	margin-left: 235px;
+	margin-bottom: 15px;
+} 
+
+
+
+hr {
+	margin: 0
+}
+
+/* hr {
+	padding-bottom: 0;
+} */
+
+/* .custom-radio {
+    width: 100%;
+}
+
+.custom-radio .dash-radioitem {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.custom-radio input[type="radio"] {
+    margin-right: 5px;
+}
+
+.custom-radio label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.custom-radio input[type="radio"]:checked + label {
+    background-color: #007BFF;
+    color: white;
+} */
+
+
+
+
+/* body {
+	margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+label {
+	width:500px;
+	height:200px;
+	position: relative;
+	display: block;
+	background: #ebebeb;
+	border-radius: 200px;
+	box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
+	cursor: pointer;
+	transition: 0.3s;
+}
+label:after {
+	content: "";
+	width:180px;
+	height: 180px;
+	position: absolute;
+	top:10px;
+	left:10px;
+	background: linear-gradient(180deg,#ffcc89,#d8860b);
+	border-radius: 180px;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+input {
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+input:checked + label {
+	background: #242424;
+}
+input:checked + label:after {
+	left:490px;
+	transform: translateX(-100%);
+	background: linear-gradient(180deg,#777,#3a3a3a);
+}
+label:active:after{
+	width: 260px;
+}
+.background {
+	width:100vw;
+	height: 100vh;
+	background: #fff;
+	z-index: -1;
+	position: absolute;
+	transition: 0.3s;
+}
+input:checked + label + .background {
+	background:#242424;
+}
+label svg {
+	position: absolute;
+	width: 120px;
+	top:40px;
+	z-index: 100;
+}
+label svg.sun {
+	left:40px;
+	fill:#fff;
+	transition: 0.3s;
+}
+label svg.moon {
+	left:340px;
+	fill:#7e7e7e;
+	transition: 0.3s;
+}
+input:checked + label svg.sun {
+	fill:#7e7e7e;
+}
+input:checked + label svg.moon {
+	fill:#fff;
+}
+
+
+
+.container {
+    padding: 20px;
+} */
